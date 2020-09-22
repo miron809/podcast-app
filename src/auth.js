@@ -2,11 +2,11 @@ export function getAuthForm() {
   return `
       <form class="mui-form" id="auth-form">
         <div class="mui-textfield mui-textfield--float-label">
-          <input type="email" id="email" required>
+          <input type="email" id="email" required value="admin@email.com">
           <label for="email">Email</label>
         </div>
         <div class="mui-textfield mui-textfield--float-label">
-          <input type="password" id="password" required>
+          <input type="password" id="password" required value="123456">
           <label for="password">Password</label>
         </div>
         <button
